@@ -1,8 +1,9 @@
+"""module to create animals"""
 # import the python datetime module to help us create a timestamp
 from datetime import date
 
 class Llama:
-
+    """class for Llama"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -12,7 +13,7 @@ class Llama:
         self.date_added = date.today()
 
 class Zebra:
-
+    """class for Zebra"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -22,6 +23,7 @@ class Zebra:
         self.date_added = date.today()
 
 class Giraffe:
+    """class for Giraffe"""
 
     def __init__(self):
         # Establish the properties of each animal
@@ -32,7 +34,7 @@ class Giraffe:
         self.date_added = date.today()
 
 class Donkey:
-
+    """class for Donkey"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -42,7 +44,7 @@ class Donkey:
         self.date_added = date.today()
 
 class Gorilla:
-
+    """class for Donkey"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -52,7 +54,7 @@ class Gorilla:
         self.date_added = date.today()
 
 class Goldfish:
-
+    """class for Goldfish"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -62,7 +64,7 @@ class Goldfish:
         self.date_added = date.today()
 
 class Mallard:
-
+    """class for Mallard"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -72,7 +74,7 @@ class Mallard:
         self.date_added = date.today()
 
 class Turtle:
-
+    """class for Turtle"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -82,7 +84,7 @@ class Turtle:
         self.date_added = date.today()
 
 class Alligator:
-
+    """class for Alligator"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -92,7 +94,7 @@ class Alligator:
         self.date_added = date.today()
 
 class Shark:
-
+    """class for Shark"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -102,7 +104,7 @@ class Shark:
         self.date_added = date.today()
 
 class Snail:
-
+    """class for Snail"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -112,7 +114,7 @@ class Snail:
         self.date_added = date.today()
 
 class Worms:
-
+    """class for Worms"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -122,7 +124,7 @@ class Worms:
         self.date_added = date.today()
 
 class Salamander:
-
+    """class for Salamander"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -132,7 +134,7 @@ class Salamander:
         self.date_added = date.today()
 
 class Snake:
-
+    """class for Snake"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -142,7 +144,7 @@ class Snake:
         self.date_added = date.today()
 
 class Slug:
-
+    """class for Slug"""
     def __init__(self):
         # Establish the properties of each animal
         # with a default value
@@ -161,5 +163,5 @@ class Slug:
 miss_fuzz =  Llama()
 miss_fuzz.name = "Miss Fuzz"
 miss_fuzz.species = "domestic llama"
-
+# This is a placeholder for correct code for this message.
 print(miss_fuzz)
