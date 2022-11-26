@@ -155,12 +155,7 @@ class Slug:
 
 
 
-
-
-
-
-
-miss_fuzz =  Llama()
+miss_fuzz = Llama()
 miss_fuzz.name = "Miss Fuzz"
 miss_fuzz.species = "domestic llama"
 
