@@ -163,5 +163,5 @@ class Slug:
 miss_fuzz =  Llama()
 miss_fuzz.name = "Miss Fuzz"
 miss_fuzz.species = "domestic llama"
-# This is a placeholder for correct code for this message.
+
 print(miss_fuzz)
